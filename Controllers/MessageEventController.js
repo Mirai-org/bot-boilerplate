@@ -1,4 +1,5 @@
-const { ADMIN_CHAT_ID } = process.env
+const { ADMIN_CHAT_ID } = process.env;
+
 const getBot = require('../modules/getBot')
 const { toAdminChatAndBackToUser } = require('../modules')
 
